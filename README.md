@@ -39,9 +39,11 @@ Interestingly, I noticed the availability varies based on network, CPU usage. Be
 When executed from command prompt (Using CPU and WiFi), I see 0% availability per cycle and response time varies ~800ms for successful responses, whereas when tested in Google Colab (VM), availablity is 50% per cycle.
 
 <img width="806" alt="image" src="https://github.com/user-attachments/assets/425771b2-4d47-458f-9056-289239d5cb1d" />
-                               <sub>Local machine:</sub>
+<sub>Local machine:</sub>
+
 
 <img width="944" alt="image" src="https://github.com/user-attachments/assets/0e2bf1ec-8ef4-49f8-b9dc-f47c39560cca" />
-                               <sub>Google colab:</sub>
+<sub>Google colab:</sub>
+
 
 Response time for fourth test case has not been recorded because it took more than 0.5 sec, to eshtablish connection and hence it went on to hit exception. Since this program does't handle Time Exception, it continues to execute with next record from the .yaml file.
