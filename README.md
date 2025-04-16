@@ -1,4 +1,4 @@
-<img width="944" alt="image" src="https://github.com/user-attachments/assets/24dee1ba-5f5b-43bc-b57f-1848cd74b4e7" /># Fetch-SRE-takehome
+# Fetch-SRE-takehome
 ## Installation:
 Run the requirements.tx file using command 
 pip3 install -r requirements.txt
@@ -6,12 +6,12 @@ pip3 install -r requirements.txt
 python3 fetch_sre.py sample.yaml
 
 ## Description
-fetch_sre.py contains code to
-> fetch the data from sample.yaml file
-> for every request check if the endpoint is available considering two conditions: 1. status code must be between 200 and 300 and 2. response time of the request must be less than 500 ms.
-> If above condition satisfies, then return 'up' else 'down'. Then continue with the next request in the file.
-> Once above cycle is completed, return the cumulative availability overall.
-> Continue the cycle and log availability results for every 15 seconds.
+### fetch_sre.py contains code to
+### fetch the data from sample.yaml file
+### for every request check if the endpoint is available considering two conditions: 1. status code must be between 200 and 300 and 2. response time of the request must be less than 500 ms.
+### If above condition satisfies, then return 'up' else 'down'. Then continue with the next request in the file.
+### Once above cycle is completed, return the cumulative availability overall.
+### Continue the cycle and log availability results for every 15 seconds.
 
 ## How existing bugs were identified:
 ### 1. Replaced json with data during api call
